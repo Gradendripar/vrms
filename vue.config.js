@@ -25,25 +25,25 @@ module.exports = {
       msTileImage: "favicon.ico"
     }
   },
-  // devServer: {
-  //   /* before: require("src/mock/index.js"), //引入MOCK/index.js */
-  //   overlay: {
-  //     // 让浏览器 overlay 同时显示警告和错误
-  //     warnings: true,
-  //     errors: true
-  //   },
-    // /* host: "localhost",
-    //   port: 8080, // 端口号 */
-    // https: false, // https:{type:Boolean}
-    // open: false, //配置后自动启动浏览器
-    // hotOnly: true, // 热更新
-    // /* changeOrigin: true, */
-    // /* proxy: "http://10.0.1.77:8880" // 配置跨域处理, */
-    // /* proxy: "http://172.20.10.9:8880" // 配置跨域处理, */
-    // /* proxy: "http://172.17.174.49:8880" */
-    // /* proxy: "http://10.13.138.44:8880" */
-    // /* proxy: "http://192.168.43.73:8880", */
+  devServer: {
+    /* before: require("src/mock/index.js"), //引入MOCK/index.js */
+    overlay: {
+      // 让浏览器 overlay 同时显示警告和错误
+      warnings: true,
+      errors: true
+    },
+    /* host: "localhost",
+      port: 8080, // 端口号 */
+    https: false, // https:{type:Boolean}
+    open: false, //配置后自动启动浏览器
+    hotOnly: true, // 热更新
+    /* changeOrigin: true, */
+    /* proxy: "http://10.0.1.77:8880" // 配置跨域处理, */
+    /* proxy: "http://172.20.10.9:8880" // 配置跨域处理, */
+    /* proxy: "http://172.17.174.49:8880" */
+    /* proxy: "http://10.13.138.44:8880" */
+    /* proxy: "http://192.168.43.73:8880", */
     // proxy: "http://localhost:8880"
-    // /* proxy: "http://localhost:8880" // 配置跨域处理, */
-  // }
+    /* proxy: "http://localhost:8880" // 配置跨域处理, */
+  }
 };
